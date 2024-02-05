@@ -1,0 +1,8 @@
+/** @format */
+
+.active {
+    background-color: rgb(162, 6, 6);
+}
+ul > li:hover {
+    cursor: pointer;
+}
