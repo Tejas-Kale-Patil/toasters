@@ -23,7 +23,7 @@ function Component2() {
             autoClose: duration * 1000,
             hideProgressBar: false,
             closeOnClick: false,
-            pauseOnHover: false,
+            pauseOnHover: true,
             draggable: true,
             progress: undefined,
             theme: "colored",
@@ -92,7 +92,7 @@ function Component2() {
 
             <ToastContainer
                 position="bottom-center"
-                autoClose={5000}
+                autoClose={ duration*1000 || 7000}
                 limit={3}
                 hideProgressBar={false}
                 newestOnTop={false}

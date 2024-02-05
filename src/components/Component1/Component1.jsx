@@ -22,7 +22,7 @@ function Component1() {
             autoClose: duration || 7 * 1000,
             hideProgressBar: false,
             closeOnClick: false,
-            pauseOnHover: false,
+            pauseOnHover: true,
             draggable: true,
             progress: undefined,
             theme: "colored",
